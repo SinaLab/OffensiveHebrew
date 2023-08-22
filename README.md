@@ -69,18 +69,18 @@ Arguments for model training are listed below.
             Path to training data (default: None)
         --bert_model BERT_MODEL
             BERT model (default: onlplab/alephbert-base)
-		--num_workers NUM_WORKERS
+	--num_workers NUM_WORKERS
             Dataloader number of workers (default: 0)
-		--max_epochs MAX_EPOCHS
-			Number of model epochs (default: 20)
-		--learning_rate LEARNING_RATE
-			Learning rate (default: 0.0001)
+	--max_epochs MAX_EPOCHS
+	     Number of model epochs (default: 20)
+	--learning_rate LEARNING_RATE
+	     Learning rate (default: 0.0001)
         --gpus GPUS [GPUS ...]
-            GPU IDs to train on (default: [0])
+             GPU IDs to train on (default: [0])
         --batch_size BATCH_SIZE
-            Batch size (default: 32)
-
-        --seed SEED           Seed for random initialization (default: 1)
+             Batch size (default: 32)
+        --seed SEED           
+	      Seed for random initialization (default: 1)
 
 #### Training Hebrew model
 For training the model, pass the following arguments:
@@ -124,34 +124,34 @@ The `eval.py` has the following parameters:
                             Model path for a pre-trained model, for this we you need to download the checkpoint from this repo  (default: None)
 							
 		--eval_path TEXT  
-
-							Text or sequence to tag, segments will be identified based on periods (default: None)
+			    Text or sequence to tag, segments will be identified based on periods (default: None)
 							
 		--batch_size BATCH_SIZE
                             Batch size (default: 32)
 							
 		--output_path OUTPUT_PATH
-    							path where "model.pt" is saved (default: output/model.pt)
+    			    path where "model.pt" is saved (default: output/model.pt)
 	
 		--bert_model BERT_MODEL
-            BERT model (default: onlplab/alephbert-base)
+                            BERT model (default: onlplab/alephbert-base)
 			
 		--num_workers NUM_WORKERS
-            Dataloader number of workers (default: 0)
+                            Dataloader number of workers (default: 0)
 			
 		--max_epochs MAX_EPOCHS
-			Number of model epochs (default: 20)
+			    Number of model epochs (default: 20)
 			
 		--learning_rate LEARNING_RATE
-			Learning rate (default: 0.0001)
+			    Learning rate (default: 0.0001)
 			
-        --gpus GPUS [GPUS ...]
-            GPU IDs to train on (default: [0])
+       		--gpus GPUS [GPUS ...]
+                            GPU IDs to train on (default: [0])
 			
-        --batch_size BATCH_SIZE
-            Batch size (default: 32)
+        	--batch_size BATCH_SIZE
+                            Batch size (default: 32)
 
-        --seed SEED           Seed for random initialization (default: 1)
+        	--seed SEED           
+		            Seed for random initialization (default: 1)
 
 Example inference command:
 
@@ -171,32 +171,31 @@ Optionally, there is `eval.py` script in `eval` directory to evaluate Hebrew dat
                             Model path for a pre-trained model, for this we you need to download the checkpoint from this repo  (default: None)
 							
 		--eval_path TEXT  
-
-							Text or sequence to tag, segments will be identified based on periods (default: None)
+			    Text or sequence to tag, segments will be identified based on periods (default: None)
 							
 		--batch_size BATCH_SIZE
                             Batch size (default: 32)
 							
 		--output_path OUTPUT_PATH
-    							path where "model.pt" is saved (default: output/model.pt)
+    			    path where "model.pt" is saved (default: output/model.pt)
 	
 		--bert_model BERT_MODEL
-            BERT model (default: onlplab/alephbert-base)
+            		     BERT model (default: onlplab/alephbert-base)
 			
 		--num_workers NUM_WORKERS
-            Dataloader number of workers (default: 0)
+            	             Dataloader number of workers (default: 0)
 			
 		--max_epochs MAX_EPOCHS
-			Number of model epochs (default: 20)
+			     Number of model epochs (default: 20)
 			
 		--learning_rate LEARNING_RATE
-			Learning rate (default: 0.0001)
+			     Learning rate (default: 0.0001)
 			
-        --gpus GPUS [GPUS ...]
-            GPU IDs to train on (default: [0])
+        	--gpus GPUS [GPUS ...]
+             	             GPU IDs to train on (default: [0])
 			
-        --batch_size BATCH_SIZE
-            Batch size (default: 32)
+        	--batch_size BATCH_SIZE
+            		     Batch size (default: 32)
 
 ## Citation
 
