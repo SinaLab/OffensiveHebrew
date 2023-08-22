@@ -1,10 +1,10 @@
 # Hebrew Corpus
 
-This corpus contains offensive language in Hebrew manually annotated. The data includes 15,881 tweets, labeled with one or more of five classes (abusive, hate, violence, pornographic, or non-offensive). The corpus is annonated manually by Arabic-Hebrew bilingual speakers.
+This corpus contains offensive language in Hebrew manually annotated. The data includes 15,881 tweets, labeled with one or more of five classes (abusive, hate, violence, pornographic, or non-offensive). The corpus is annotated manually by Arabic-Hebrew bilingual speakers.
 
 ## The Corpus
 
-The corpus contains fine grnaular labels: abusive, hate, violence, pornographic, or non-offensive. However, it is class imbalanced, so we mapped the labels (hate, abusive, violence, and pornographic) into one label we called "offensive", resulting into a binary labeled dataset. Class distribution is presented in the tabel below.
+The corpus contains fine granular labels: abusive, hate, violence, pornographic, or non-offensive. However, it is class imbalanced, so we mapped the labels (hate, abusive, violence, and pornographic) into one label we called "offensive", resulting in a binary labeled dataset. Class distribution is presented in the table below.
 
 | Class          | Sub-class    | Count  |
 | -------------- | ------------ | ------ |
@@ -15,9 +15,9 @@ The corpus contains fine grnaular labels: abusive, hate, violence, pornographic,
 | Not offeinsive | -            | 14,681 |
 | Total          |              | 15,881 |
 
-The binary labaled data is also highly imbalanced with 14,681 tweets labeled as not offensive and 1,200 tweets labeled as offensive. To produce a more balanced dataset, we combined the 1,200 offensive tweets with a random sample of 1,300 non-offensive tweets, resulting in a more balanced dataset of 2,500 tweets. We split the 2,500 tweets into training (70%), validation (10%), and test (20%) sets.
+The binary-labeled data is also highly imbalanced with 14,681 tweets labeled as not offensive and 1,200 tweets labeled as offensive. To produce a more balanced dataset, we combined the 1,200 offensive tweets with a random sample of 1,300 non-offensive tweets, resulting in a more balanced dataset of 2,500 tweets. We split the 2,500 tweets into training (70%), validation (10%), and test (20%) sets.
 
-A corpus and model for offenive Hebrew
+A corpus and model for offensive Hebrew
 Version: 1.0 (updated on 7/8/2023)
 
 
@@ -29,7 +29,7 @@ Training set: data/train.csv
 Test set: data/test.csv
 Validation set: data/val.csv
 
-The dataset is generally small, so we also made available to the community the remining 14,681 non-offensive tweets to encourage others to contribute and improve the data: data/none-offiensive.csv
+The dataset is generally small, so we also made available to the community the remaining 14,681 non-offensive tweets to encourage others to contribute and improve the data: data/none-offiensive.csv
 
 ## Model Download
 
@@ -49,7 +49,7 @@ This package has dependencies on multiple Python packages. It is recommended to 
 
 ## Model Training
 
-Argument for model traning are listed below. 
+Arguments for model training are listed below. 
 
     usage: train.py [-h] --output_path OUTPUT_PATH --train_path TRAIN_PATH
         --val_path VAL_PATH --test_path TEST_PATH
@@ -200,5 +200,5 @@ Optionally, there is `eval.py` script in `eval` directory to evaluate Hebrew dat
 
 ## Citation
 
-Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif : [Offensive Hebrew Corpus and Detection using BERT]
-(http://www.jarrar.info/publications/).
+Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif : [Offensive Hebrew Corpus and Detection using BERT](http://www.jarrar.info/publications/HJKN23). The 20th ACS/IEEE International Conference on Computer Systems and Applications (AICCSA). Pages(-). IEEE. Egypt. 2023
+
