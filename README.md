@@ -200,5 +200,5 @@ Optionally, there is `eval.py` script in `eval` directory to evaluate Hebrew dat
 
 ## Citation
 
-Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif : [Offensive Hebrew Corpus and Detection using BERT](http://www.jarrar.info/publications/HJKN23). The 20th ACS/IEEE International Conference on Computer Systems and Applications (AICCSA). Pages(-). IEEE. Egypt. 2023
+Nagham Hamad, Mustafa Jarrar, Mohammed Khalilia, Nadim Nashif : [Offensive Hebrew Corpus and Detection using BERT](https://www.jarrar.info/publications/HJKN23.pdf). The 20th ACS/IEEE International Conference on Computer Systems and Applications (AICCSA). Pages(-). IEEE. Egypt. 2023
 
