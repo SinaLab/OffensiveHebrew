@@ -29,7 +29,11 @@ Training set: data/train.csv
 Test set: data/test.csv
 Validation set: data/val.csv
 
-The dataset is generally small, so we also made available to the community the remaining 14,681 non-offensive tweets to encourage others to contribute and improve the data: data/none-offiensive.csv
+The dataset is generally small, so we also made available to the community the remaining 14,681 non-offensive tweets to encourage others to contribute and improve the data: 
+data/none-offiensive.csv
+
+AllData_OffensiveHebrew: contains all tweets and all annotations (including TweetNo, Label, Target, Topic, Phrase, TweetText) in CSV and Excel xlsx format
+data/AllData_OffensiveHebrew.csv
 
 ## Model Download
 
