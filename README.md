@@ -183,6 +183,9 @@ Optionally, there is `eval.py` script in `eval` directory to evaluate Hebrew dat
 							
 		--output_path OUTPUT_PATH
     			    path where "model.pt" is saved (default: output/model.pt)
+
+     		--checkpoint_path CHECKPOINT_PATH
+       				path where "tag_vocab.pkl" is saved (output/tag_vocab.pkl)
 	
 		--bert_model BERT_MODEL
             		     BERT model (default: onlplab/alephbert-base)
