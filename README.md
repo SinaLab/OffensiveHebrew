@@ -160,7 +160,8 @@ The `eval.py` has the following parameters:
 Example inference command:
 
     python -u /path/to/AlephBERT/eval/eval.py
-           --model_path /path/to/model
+           --output_path /path/to/model
+	   --checkpoint_path /path/to/pkl/file
            --text "נסראללה: יורש העצר הסעודי ביקש מטראמפ לרצוח אותי ,Negative"
 
 #### Eval script
