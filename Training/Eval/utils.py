@@ -5,7 +5,7 @@ from torchtext.vocab import vocab
 from collections import Counter, OrderedDict
 import pandas as pd
 import logging
-from Training.Eval.data import Segment
+from data import Segment
 
 logger = logging.getLogger(__name__)
 
