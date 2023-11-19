@@ -5,10 +5,10 @@ import logging
 import sys
 import pickle
 from torch.utils.data import DataLoader
-from Training.Eval.model import BertClassifier
-from Training.Eval.trainer import BertTrainer
-from Training.Eval.utils import parse_data_files, set_seed
-from Training.Eval.data import DefaultDataset
+from model import BertClassifier
+from trainer import BertTrainer
+from utils import parse_data_files, set_seed
+from data import DefaultDataset
 
 
 def parse_args():
