@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument(
         "--output_path", type=str, required=True, help="Output path",
     )
-     parser.add_argument(
+    parser.add_argument(
         "--train_path", type=str, required=True, help="Path to training data",
     )
 
