@@ -37,7 +37,7 @@ data/AllData_OffensiveHebrew.csv
 
 ## Model Download
 
-Huggingface: https://huggingface.co/SinaLab/OffensiveHebrew
+Huggingface: https://huggingface.co/SinaLab/Offensive-Hebrew
 
 ## Requirements
 
